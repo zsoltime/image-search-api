@@ -7,21 +7,8 @@
     "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/zsoltime/image-search-api.git"
-  },
-  "keywords": [
-    "image",
-    "search",
-    "flickr"
-  ],
   "author": "Zsolt Meszaros",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/zsoltime/image-search-api/issues"
-  },
-  "homepage": "https://github.com/zsoltime/image-search-api#readme",
   "dependencies": {
     "cors": "^2.8.1",
     "dotenv": "^2.0.0",
@@ -35,5 +22,18 @@
   },
   "engines": {
     "node": "6.9.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zsoltime/image-search-api.git"
+  },
+  "keywords": [
+    "image",
+    "search",
+    "flickr"
+  ],
+  "bugs": {
+    "url": "https://github.com/zsoltime/image-search-api/issues"
+  },
+  "homepage": "https://github.com/zsoltime/image-search-api#readme"
 }
