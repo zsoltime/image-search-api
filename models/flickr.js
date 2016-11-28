@@ -13,6 +13,7 @@ module.exports.get = function(search, offset, callback) {
     .media()
     .search(search)
     .get({
+      sort: 'interestingness-desc',
       per_page: 10,
       page: page
     })

@@ -1,6 +1,8 @@
 require('dotenv').config({ silent: process.env.NODE_ENV === 'production' });
 const express = require('express');
 const app = express();
+const cors = require('cors');
+const path = require('path');
 const port = process.env.PORT || 3000;
 
 const db = require('./db');
@@ -11,6 +13,11 @@ if (app.get('env') === 'development') {
   app.use(morgan('dev'));
 }
 
+app.set('views', path.join(__dirname, 'views'));
+app.set('view engine', 'jade');
+app.use(express.static(path.join(__dirname, 'public')));
+
+app.use(cors());
 app.use(require('./routes'));
 
 db.connect(uri, err => {
