@@ -57,7 +57,7 @@
       const title = document.createElement('span');
       a.href = images[i].url;
       a.target = '_blank';
-      img.src = images[i].sizes.small[320];
+      img.src = images[i].sizes.small[320] || images[i].sizes.small[240];
       img.title = images[i].title;
       a.appendChild(img);
       a.appendChild(title);
