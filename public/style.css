@@ -2,7 +2,7 @@
   box-sizing: inherit;
 }
 body {
-  background: ghostwhite;
+  background-color: ghostwhite;
   box-sizing: border-box;
   color: #444;
   font-family: Lato, "Helvetica Neue", Arial, sans-serif;
@@ -45,7 +45,7 @@ ul {
   list-style-type: circle;
 }
 code {
-  background: crimson;
+  background-color: crimson;
   color: #fff;
   display: block;
   font-family: "Source Code Pro", monospace;
@@ -111,8 +111,8 @@ input, textarea {
   margin: .5em;
 }
 img {
-    max-width: 100%;
-    transition: all .3s ease;
+  max-width: 100%;
+  transition: all .3s ease;
 }
 .results:hover img {
   opacity: 0.7;
@@ -121,20 +121,20 @@ img {
   opacity: 1;
 }
 .recent {
-    background: rgba(175, 175, 175, .1);
-    border: 1px solid #ddd;
-    border-top: 0;
-    list-style: none outside none;
-    padding: 0 1em;
+  background-color: rgba(175, 175, 175, .1);
+  border: 1px solid #ddd;
+  border-top: 0;
+  list-style: none outside none;
+  padding: 0 1em;
 }
 .recent li {
-    color: #777;
-    cursor: pointer;
-    line-height: 2;
-    transition: color .3s ease;
+  color: #777;
+  cursor: pointer;
+  line-height: 2;
+  transition: color .3s ease;
 }
 .recent li:hover {
-    color: #555;
+  color: #555;
 }
 @media (min-width: 640px) {
   .usage, .live {

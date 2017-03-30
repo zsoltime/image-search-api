@@ -1,8 +1,8 @@
 const MongoClient = require('mongodb').MongoClient;
 
-let state = {
-  db: null
-}
+const state = {
+  db: null,
+};
 
 module.exports.connect = (uri, done) => {
   if (state.db) {
@@ -16,17 +16,15 @@ module.exports.connect = (uri, done) => {
     state.db = db;
     done();
   });
-}
+};
 
-module.exports.get = () => {
-  return state.db;
-}
+module.exports.get = () => state.db;
 
 module.exports.collection = (col) => {
   if (state.db) {
     return state.db.collection(col);
   }
-}
+};
 
 module.exports.close = (done) => {
   if (state.db) {
@@ -35,4 +33,4 @@ module.exports.close = (done) => {
       done(err);
     });
   }
-}
+};
