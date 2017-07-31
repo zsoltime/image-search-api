@@ -1,3 +1,5 @@
+'use strict';
+
 const Flickr = require('flickr-sdk');
 
 const flickr = new Flickr({

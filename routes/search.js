@@ -1,3 +1,5 @@
+'use strict';
+
 const express = require('express');
 const flickr = require('../models/flickr');
 const log = require('../middlewares/logger').log;

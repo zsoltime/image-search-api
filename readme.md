@@ -1,4 +1,4 @@
-# FreeCodeCamp: Image Search Abstraction Layer
+# freeCodeCamp: Image Search Abstraction Layer
 
 This is my image search API for [Free Code Camp's fourth API challenge](https://www.freecodecamp.com/challenges/image-search-abstraction-layer). The demo is available on [Heroku](https://fcc-api-is.herokuapp.com/)
 

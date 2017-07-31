@@ -1,3 +1,5 @@
+'use strict';
+
 const db = require('../db');
 
 module.exports.log = (req, res, next) => {
@@ -7,7 +9,7 @@ module.exports.log = (req, res, next) => {
 
     col.insertOne({ query: req.params.search })
     // eslint-disable-next-line no-console
-    .catch(err => console.error(err));
+      .catch(err => console.error(err));
   }
   next();
 };
