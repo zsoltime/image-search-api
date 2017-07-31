@@ -1,7 +1,7 @@
 {
   "name": "image-search",
   "version": "0.1.0",
-  "description": "Image search abstraction layer project for Free Code Camp",
+  "description": "Image search abstraction layer project for freeCodeCamp",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
@@ -10,21 +10,21 @@
   "author": "Zsolt Meszaros",
   "license": "ISC",
   "dependencies": {
-    "cors": "^2.8.1",
-    "dotenv": "^2.0.0",
-    "express": "^4.14.0",
-    "flickr-sdk": "^2.0.1",
-    "mongodb": "^2.2.11",
-    "pug": "^2.0.0-beta11"
+    "cors": "^2.8.4",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.3",
+    "flickr-sdk": "^2.1.0",
+    "mongodb": "^2.2.30",
+    "pug": "^2.0.0-rc.2"
   },
   "devDependencies": {
-    "eslint": "^3.18.0",
-    "eslint-config-airbnb-base": "^11.1.2",
-    "eslint-plugin-import": "^2.2.0",
-    "morgan": "^1.7.0"
+    "eslint": "^4.3.0",
+    "eslint-config-airbnb-base": "^11.3.1",
+    "eslint-plugin-import": "^2.7.0",
+    "morgan": "^1.8.2"
   },
   "engines": {
-    "node": "6.9.1"
+    "node": "6.11.1"
   },
   "repository": {
     "type": "git",
